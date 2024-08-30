@@ -7,3 +7,4 @@ test_gopal/*
 test_tip3pfb/*
 test_opc3/*
 *.dcd
+*.nc
