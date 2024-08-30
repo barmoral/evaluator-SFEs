@@ -1,0 +1,164 @@
+
+---------------------------------- Compilers -----------------------------------
+   aocc/3.1.0 (D)    gcc/11.2.0     (D)    nvhpc_sdk/2021.213
+   aocc/3.2.0        gcc/13.2.0            nvhpc_sdk/2022.229
+   gcc/10.3.0        intel/2022.1.2 (m)    nvhpc_sdk/2023.233 (D)
+
+--------------------------- Independent Applications ---------------------------
+   R/3.6.3                        mathematica/9.0
+   R/4.2.2                        mathematica/11.1.0   (D)
+   R/4.4.0               (D)      matlab/R2018b
+   allinea/6.0.4         (m)      matlab/R2019b
+   anaconda/2020.11               matlab/R2020b
+   anaconda/2022.10               matlab/R2021b        (D)
+   anaconda/2023.09      (D)      matlab/R2022b
+   antlr/4.13.1                   matlab/R2023b
+   arm-forge/19.1.3      (m)      maven/3.8.1
+   autotools/2.69                 ncl/6.3.0
+   autotools/2.71        (D)      nco/4.8.1
+   chimerax/1.2.5                 papi/5.4.3
+   clustershell/1.9.2             papi/5.5.1           (D)
+   cmake/3.5.2                    paraview/5.0.1
+   cmake/3.9.2                    paraview/5.6.0
+   cmake/3.14.1                   paraview/5.9.0
+   cmake/3.20.2                   paraview/5.10.0      (D)
+   cmake/3.25.0                   pdtoolkit/3.22
+   cmake/3.27.7          (D)      pdtoolkit/3.25.1     (D)
+   cube/3.4.3                     perl/5.16.3
+   cube/4.3.4            (D)      perl/5.24.0          (D)
+   cuda/11.2             (g)      perl/5.28.1
+   cuda/11.3             (g)      perl/5.36.0
+   cuda/11.4             (g)      pigz/2.7
+   cuda/11.8             (g)      python/2.7.18
+   cuda/12.1.1           (g,D)    python/3.10.2        (D)
+   cudnn/8.1             (g)      qt/5.6.0
+   cudnn/8.2             (g)      qt/5.9.1
+   cudnn/8.6             (g,D)    qt/5.15              (D)
+   curc-quota/latest              rclone/1.58.0
+   dmtcp/2.6.0                    rhel7for8/1.0
+   eigen/3.4.0                    rocm/5.2.3           (g)
+   emacs/25.3                     rocm/5.3.0           (g)
+   emacs/27.2            (D)      rocm/5.5.0           (g)
+   expat/2.1.1                    rocm/5.6.0           (g)
+   expat/2.3.0           (D)      rocm/6.1.0           (g,D)
+   ffmpeg/4.4                     ruby/2.3.1
+   gdb/8.1                        ruby/3.0.0           (D)
+   gdb/10.1              (D)      singularity/3.6.4    (D)
+   ghostscript/9.56.0             singularity/3.7.4
+   git-lfs/3.1.2                  slurmtools/0.0.1
+   git/2.31.0                     spack/0.20.1
+   gmsh/2.16.0                    subversion/1.8.16
+   gmsh/4.11.1           (D)      subversion/1.10.2
+   gnu_parallel/20160622          subversion/1.14.1    (D)
+   gnu_parallel/20210322 (D)      swig/4.1.1
+   gnuplot/5.4.3                  tcltk/8.6.5
+   idl/8.7                        tcltk/8.6.11         (D)
+   imagemagick/6.9.12             tdom/0.8.3
+   jdk/1.7.0                      tdom/0.9.2           (D)
+   jdk/1.8.0_91                   texlive/2021
+   jdk/1.8.0_281                  totalview/2016.06.21
+   jdk/1.8.0                      ucx/1.10.1
+   jdk/18.0.1.1          (D)      ucx/1.12.1           (D)
+   julia/0.6.2                    udunits/2.2.20
+   julia/1.6.0                    udunits/2.2.24
+   julia/1.6.6                    udunits/2.2.25
+   julia/1.8.1                    udunits/2.2.28       (D)
+   julia/1.9.4                    valgrind/3.11.0
+   julia/1.10.0                   valgrind/3.17.0      (D)
+   julia/1.10.2          (D)      vapor/3.9.1
+   lftp/4.8.4                     vtf3/1.43
+   loadbalance/0.2                zip/rhel7
+   mambaforge/23.1.0-1
+
+-------------------------------- Bioinformatics --------------------------------
+   alphafold/2.2.0         cutadapt/4.2            plink2/2.00a2.3
+   alphafold/2.3.1  (D)    fastqc/0.11.9           qiime2/2023.5
+   bamtools/2.5.2          gatk/4.3.0.0            qiime2/2024.2_amplicon (D)
+   bbtools/39.01           homer/4.11              samtools/1.16.1
+   bcftools/1.16           htslib/1.16             sra-toolkit/3.0.0
+   bedtools/2.29.1         multiqc/1.14            star/2.7.10b
+   bowtie2/2.5.0           nextflow/22.10.6        trimmomatic/0.39
+   bwa/0.7.17              nextflow/23.04   (D)
+   cellranger/7.1.0        picard/2.27.5
+
+---------------------------- Lmod Internal Modules -----------------------------
+   StdEnv    lmod    settarg
+
+--------------------------------- CU Licensed ----------------------------------
+   CST/2021                 ansys/AnsysEM22.2              (D)
+   abaqus/V6R2019x          ansys/AnsysEM23.1
+   altairfeko/2019.2        coreform/Coreform-Cubit-2021.5
+   altairfeko/2023.1 (D)    gaussian/g16_c.02
+   ams/2023.101             gridpro/8.2
+   ams/2024.102      (D)    trelis/16.3.6
+   ansys/AnsysEM21.2
+
+  Where:
+   D:  Default Module
+   g:  built for GPU
+   m:  built for host and native MIC
+
+If the avail list is too long consider trying:
+
+"module --default avail" or "ml -d av" to just list the default modules.
+"module overview" or "ml ov" to display the number of modules for each name.
+
+Use "module spider" to find all possible modules and extensions.
+Use "module keyword key1 key2 ..." to search for all possible modules matching
+any of the "keys".
+
+
+cp: '/projects/bamo6610/software/anaconda/env/old-evaluator-test7/lib/python3.9/site-packages/openforcefields/offxml/openff-1.3.1.offxml' and '/projects/bamo6610/software/anaconda/env/old-evaluator-test7/lib/python3.9/site-packages/openforcefields/offxml/openff-1.3.1.offxml' are the same file
+converted /projects/bamo6610/software/anaconda/env/old-evaluator-test7/lib/python3.9/site-packages/openforcefields/offxml/openff-1.3.1.offxml
+cp: '/projects/bamo6610/software/anaconda/env/old-evaluator-test7/lib/python3.9/site-packages/openforcefields/offxml/tip4p_ew.offxml' and '/projects/bamo6610/software/anaconda/env/old-evaluator-test7/lib/python3.9/site-packages/openforcefields/offxml/tip4p_ew.offxml' are the same file
+converted /projects/bamo6610/software/anaconda/env/old-evaluator-test7/lib/python3.9/site-packages/openforcefields/offxml/tip4p_ew.offxml
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: Cannot perform Hydrogen sampling with GPU-Omega: GPU-Omega disabled.
+Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2024-08-29 17:20:14,518: Setting CUDA platform to use precision model 'mixed'.
+2024-08-29 17:20:14,905: Reading phase solvent1
+2024-08-29 17:20:15,035: ERROR - yank.pipeline - Atom number mismatch: solvent_1.xml has 4010 atoms; solvent_1.pdb has 3011 atoms.
+2024-08-29 17:20:15,035: Protocol failed to execute: e10a637d09d14b70ad746009209a6111|run_solvation_yank
+2024-08-29 17:20:15,035: Protocol failed to execute: e10a637d09d14b70ad746009209a6111|conditional_group
+{
+  "@type": "openff.evaluator.datasets.datasets.PhysicalPropertyDataSet",
+  "properties": []
+}
+Test of CC(C)C with 1000 total molecules using tip4p-ew water and sage 1.3.1
+JobID           JobName    CPUTime    Elapsed 
+------------ ---------- ---------- ---------- 
+17682039     sfe_tip3p+ 1-03:41:22 1-03:41:22 
+17682039.ba+      batch 1-03:41:22 1-03:41:22 
+17682039.ex+     extern 1-03:41:22 1-03:41:22 
+17682152     SPW_3m_r1+   10:00:05   10:00:05 
+17682152.ba+      batch   10:00:06   10:00:06 
+17682152.ex+     extern   10:00:05   10:00:05 
+17683198     HW_35_ori+   10:00:05   10:00:05 
+17683198.ba+      batch   10:00:06   10:00:06 
+17683198.ex+     extern   10:00:05   10:00:05 
+17683238     sfe_test_+   07:17:15   07:17:15 
+17683238.ba+      batch   07:17:15   07:17:15 
+17683238.ex+     extern   07:17:16   07:17:16 
+17683239     sfe_test_+   08:52:34   08:52:34 
+17683239.ba+      batch   08:52:34   08:52:34 
+17683239.ex+     extern   08:52:34   08:52:34 
+17683243     sfe_test_+   09:01:28   09:01:28 
+17683243.ba+      batch   09:01:28   09:01:28 
+17683243.ex+     extern   09:01:28   09:01:28 
+17683244     sfe_test_+   07:52:49   07:52:49 
+17683244.ba+      batch   07:52:49   07:52:49 
+17683244.ex+     extern   07:52:49   07:52:49 
+17687708     sys/dashb+   05:00:11   05:00:11 
+17687708.ba+      batch   05:00:14   05:00:14 
+17687708.ex+     extern   05:00:11   05:00:11 
+17689060     sys/dashb+   00:16:51   00:16:51 
+17689060.ba+      batch   00:16:51   00:16:51 
+17689060.ex+     extern   00:16:51   00:16:51 
+17689089     sfe_gopal+   00:02:39   00:02:39 
+17689089.ba+      batch   00:02:39   00:02:39 
+17689089.ex+     extern   00:02:39   00:02:39 
+17689110     sfe_tip4p+   00:02:55   00:02:55 
+17689110.ba+      batch   00:02:55   00:02:55 
+17689110.ex+     extern   00:02:55   00:02:55 
