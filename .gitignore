@@ -1,9 +1,9 @@
-test_500/
-test_1000/
-test_1500/
-test_2000/
-TIP3P/
-test_gopal/
-test_tip3pfb/
-test_opc3/
+test_500/*
+test_1000/*
+test_1500/*
+test_2000/*
+TIP3P/*
+test_gopal/*
+test_tip3pfb/*
+test_opc3/*
 *.dcd
