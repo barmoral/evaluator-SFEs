@@ -5,7 +5,6 @@ test_2000/*
 TIP3P/*
 test_gopal/*
 test_tip3pfb/*
-test_opc3/*
 *.dcd
 *.nc
 **/*_run_solvation_yank/experiments/experiments.log
